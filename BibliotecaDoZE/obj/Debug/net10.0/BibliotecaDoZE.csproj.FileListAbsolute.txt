@@ -12,3 +12,4 @@ C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10
 C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.pdb
 C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.genruntimeconfig.cache
 C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\ref\BibliotecaDoZE.dll
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.sourcelink.json
