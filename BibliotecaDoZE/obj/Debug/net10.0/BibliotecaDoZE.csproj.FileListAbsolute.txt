@@ -1,0 +1,14 @@
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\bin\Debug\net10.0\BibliotecaDoZE.exe
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\bin\Debug\net10.0\BibliotecaDoZE.deps.json
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\bin\Debug\net10.0\BibliotecaDoZE.runtimeconfig.json
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\bin\Debug\net10.0\BibliotecaDoZE.dll
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\bin\Debug\net10.0\BibliotecaDoZE.pdb
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.AssemblyInfoInputs.cache
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.AssemblyInfo.cs
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.csproj.CoreCompileInputs.cache
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.dll
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\refint\BibliotecaDoZE.dll
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.pdb
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\BibliotecaDoZE.genruntimeconfig.cache
+C:\Users\victo\OneDrive\Documentos\BibliotecaDoZE\BibliotecaDoZE\obj\Debug\net10.0\ref\BibliotecaDoZE.dll
