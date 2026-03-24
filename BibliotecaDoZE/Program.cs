@@ -32,7 +32,7 @@ internal class Program
         while (true)
         {
             Console.WriteLine();
-            Console.WriteLine("=== Biblioteca DoZE ===");
+            Console.WriteLine("=== Biblioteca Do ZE ===");
             Console.WriteLine("1) Cadastrar leitor");
             Console.WriteLine("2) Listar todos os leitores e seus livros");
             Console.WriteLine("3) Editar leitor");
