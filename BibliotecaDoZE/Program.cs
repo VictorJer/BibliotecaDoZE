@@ -22,7 +22,7 @@ public class Leitor
 
     public override string ToString() => $"[{Id}] {Nome} (CPF: {Cpf}) - Livros: {Livros.Count}";
 }
-
+// O programa principal
 internal class Program
 {
     private static readonly List<Leitor> _leitores = new();
@@ -70,7 +70,7 @@ internal class Program
     }
 
     private static void CadastrarLeitor()
-    {
+    { // Validações básicas para CPF e nome
         var cpf = LerTexto("CPF do leitor");
         if (string.IsNullOrWhiteSpace(cpf))
         {
@@ -97,7 +97,7 @@ internal class Program
     }
 
     private static void ListarLeitores()
-    {
+    { // Verifica se há leitores cadastrados
         if (!_leitores.Any())
         {
             Console.WriteLine("Não há leitores cadastrados.");
@@ -112,7 +112,7 @@ internal class Program
     }
 
     private static void EditarLeitor()
-    {
+    { // Permite editar apenas o nome do leitor, mantendo o CPF como identificador único
         var leitor = SelecionarLeitor("Digite o CPF do leitor que deseja editar");
         if (leitor == null) return;
 
@@ -129,7 +129,7 @@ internal class Program
     }
 
     private static void ExcluirLeitor()
-    {
+    { // Validações para exclusão de leitor
         var leitor = SelecionarLeitor("Digite o CPF do leitor que deseja excluir");
         if (leitor == null) return;
 
@@ -147,7 +147,7 @@ internal class Program
     }
 
     private static void IncluirLivro()
-    {
+    { // Validações para inclusão de livro, garantindo que o leitor exista e os dados do livro sejam válidos
         var leitor = SelecionarLeitor("Digite o CPF do leitor que receberá o livro");
         if (leitor == null) return;
 
@@ -167,7 +167,7 @@ internal class Program
     }
 
     private static void EditarLivro()
-    {
+    { // Permite editar os detalhes de um livro específico de um leitor, mantendo a estrutura de seleção e validação
         var leitor = SelecionarLeitor("Digite o CPF do leitor que possui o livro");
         if (leitor == null) return;
 
@@ -188,7 +188,7 @@ internal class Program
     }
 
     private static void RemoverLivro()
-    {
+    { // Permite remover um livro específico de um leitor, garantindo que o leitor e o livro existam antes de tentar a remoção
         var leitor = SelecionarLeitor("Digite o CPF do leitor que possui o livro a ser removido");
         if (leitor == null) return;
 
@@ -200,7 +200,7 @@ internal class Program
     }
 
     private static void DoarLivro()
-    {
+    { // Permite doar um livro de um leitor para outro, garantindo que ambos os leitores existam e que o livro selecionado seja transferido corretamente    
         var origem = SelecionarLeitor("Digite o CPF do leitor que está doando o livro");
         if (origem == null) return;
 
@@ -223,7 +223,7 @@ internal class Program
     }
 
     private static void ListarLeitorEspecifico()
-    {
+    { // Permite listar um leitor específico e seus livros
         var leitor = SelecionarLeitor("Digite o CPF do leitor que deseja visualizar");
         if (leitor == null) return;
 
@@ -232,7 +232,7 @@ internal class Program
     }
 
     private static void PesquisarLivro()
-    {
+    { // Permite pesquisar por um livro em todos os leitores e exibir o leitor correspondente
         var termo = LerTexto("Título ou parte do título do livro");
         if (string.IsNullOrWhiteSpace(termo))
         {
@@ -258,7 +258,7 @@ internal class Program
     }
 
     private static void ExibirLivros(Leitor leitor)
-    {
+    { // Exibe os livros de um leitor, indicando se ele não possui nenhum livro
         if (!leitor.Livros.Any())
         {
             Console.WriteLine("  (sem livros)");
@@ -272,7 +272,7 @@ internal class Program
     }
 
     private static Leitor? SelecionarLeitor(string prompt)
-    {
+    { // Permite selecionar um leitor a partir de uma lista
         if (!_leitores.Any())
         {
             Console.WriteLine("Não há leitores cadastrados.");
@@ -297,7 +297,7 @@ internal class Program
     }
 
     private static Livro? SelecionarLivro(Leitor leitor, string prompt)
-    {
+    { // Permite selecionar um livro de um leitor específico, garantindo que o leitor tenha livros antes de tentar a seleção
         if (!leitor.Livros.Any())
         {
             Console.WriteLine("Este leitor não possui livros.");
@@ -321,13 +321,13 @@ internal class Program
     }
 
     private static string LerTexto(string prompt)
-    {
+    { // Permite ler um texto do usuário, garantindo que não seja nulo
         Console.Write(prompt + ": ");
         return Console.ReadLine() ?? string.Empty;
     }
 
     private static int? LerInt(string prompt, bool allowEmpty = false)
-    {
+    { // Permite ler um número inteiro do usuário
         Console.Write(prompt + ": ");
         var input = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(input))
