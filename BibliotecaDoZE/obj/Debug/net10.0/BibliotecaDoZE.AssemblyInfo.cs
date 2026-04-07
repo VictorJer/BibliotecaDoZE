@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BibliotecaDoZE")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5ebad0051430edb9284c6d2d5e526b754d32c5f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2c87051ba9bdd3d9daa25d01c7de4c8bb25d7ad5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BibliotecaDoZE")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BibliotecaDoZE")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
